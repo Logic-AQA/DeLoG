@@ -1,0 +1,10 @@
+eval_file: "results/eval_format.json"
+eval_type: "em"
+data_type: "asqa"
+
+compute_citations: true
+at_most_citations: 3
+calib: true
+
+refusal_flag: "I apologize, but I couldn't find an answer"
+refusal_threshold: 85
